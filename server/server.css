@@ -1,0 +1,14 @@
+#data-wrapper {
+	display: grid;
+	grid-template-columns: repeat(4, calc(25% - 20px));
+	grid-gap: 20px 20px;
+}
+
+.data-item {
+	padding: 10px;
+	background-color: #efaa73;
+}
+
+.data-item span {
+	font-weight: 700;
+}

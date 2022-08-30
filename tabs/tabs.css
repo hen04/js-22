@@ -1,0 +1,31 @@
+.tabs-wrapper {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.tabs-header {
+	display: flex;
+	margin-bottom: 4px;
+}
+
+.tabs-header-item {
+	border: 1px solid #000000;
+	padding: 8px;
+	cursor: pointer;
+}
+
+.tabs-header-item.active {
+	background-color: #000000;
+	color: #ffffff;
+	cursor: default;
+}
+
+.tabs-content-item {
+	display: none;
+	padding: 8px;
+	border: 1px solid #000;
+}
+
+.tabs-content-item.active {
+	display: flex;
+}

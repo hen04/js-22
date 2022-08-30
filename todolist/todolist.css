@@ -1,0 +1,34 @@
+.flex-wrapper {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.add-todo-wrapper {
+	display: flex;
+}
+
+.todo-item {
+	display: flex;
+	border: 1px solid #000;
+	align-items: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+.todo-item:not(:last-child) {
+	margin-bottom: 10px;
+}
+
+.description {
+
+}
+
+.buttons {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+
+.btn-complete {
+	margin-right: 20px;
+}
